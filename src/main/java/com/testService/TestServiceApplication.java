@@ -5,6 +5,9 @@ import com.testService.TestController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+/*** 
+ * This is the javadoc example 
+ */
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
