@@ -9,11 +9,10 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackageClasses = { TestController.class })
 @EnableAutoConfiguration
 public class TestServiceApplication {
-/** Variável String Privada. */
-private String bar = new String("bar");
+
 /** @param args Procedimento.*/
 public static void main(final String[] args) {
-    SpringApplication.run(TestServiceApplication.class, args);
-        System.exit(0);
-    }
+SpringApplication.run(TestServiceApplication.class, args);
+System.exit(0);
+}
 }
